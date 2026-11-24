@@ -37,14 +37,111 @@ section {
     text-align: center;
     color: #ffffff;
     width: 100%;
-    height: 400px;
+    height: 380px;
     background-image: url(../assets/imagenes/cabecera.jpg);
-    background-size: cover;
-    background-position: center;
+    background-size: 135%;
+    background-position: left center;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
 }
 .centro {
     font-weight: bolder;
     font-size: 45px;
-    margin: ;
+   margin-bottom: 15px;
+}
+.texto-centro {
+    font-size: 18px;
+    max-width: 800px;
+}
+.boletin {
+    background-color: #24282b;
+    color: #ffffff;
+    padding: 25px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boletin h2 {
+    font-size: 22px;
+}
+.formulario {
+    display: flex;
+    gap: 5px;
+}
+.boletin input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+}
+.boletin button {
+    background-color: #e8491d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.Fotos-3 {
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.foto-1, .foto-2, .foto-3 {
+    text-align: center;
+}
+.Fotos-3 img {
+    width: 90px;
+    margin-bottom: 15px;
+}
+.Fotos-3 h3 {
+    margin-bottom: 15px;
+}
+footer {
+    background-color: #1293d4;
+    color: #ffffff;
+    text-align: center;
+    padding: 35px;
+}
+
+.nosotros {
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+.columna-izquierda {
+    width: 65%;
+}
+.columna-izquierda h3 {
+    margin-bottom: 15px;
+}
+.columna-izquierda p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+.columna-izquierda img {
+    width: 100%;
+    margin-top: 10px;
+}
+.caja2-nosotros {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 20px;
+}
+.caja-hacemos {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 20px;
+    width: 30%;
+}
+.caja-hacemos h3 {
+    margin-bottom: 15px;
+}
+.caja .caja-hacemos p{
+    line-height: 1.5;
 }
