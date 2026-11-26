@@ -15,9 +15,11 @@ header {
 }
 .Titulo {
     display: flex;
-    gap: 8px;
     font-size: 26px;
     font-weight: bold;
+}
+.Titulo .azul {
+    margin-left: 8px;
 }
 .azul, .navegacion {
     color: #1293d4;
@@ -25,7 +27,9 @@ header {
  nav ul {
     list-style: none;
     display: flex;
-    gap: 25px;
+}
+nav ul li {
+    margin-right: 20px;
 }
 nav ul li a {
     color: #ffffff;
@@ -70,7 +74,10 @@ section {
 }
 .formulario {
     display: flex;
-    gap: 5px;
+  
+}
+.formulario input {
+    margin-right: 5px;
 }
 .boletin input {
     padding: 10px;
@@ -88,7 +95,6 @@ section {
     padding: 40px 80px;
     display: flex;
     justify-content: space-between;
-    gap: 30px;
 }
 .foto-1, .foto-2, .foto-3 {
     text-align: center;
@@ -112,7 +118,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 40px;
 }
 .columna-izquierda {
     width: 65%;
@@ -142,6 +147,99 @@ footer {
 .caja-hacemos h3 {
     margin-bottom: 15px;
 }
-.caja .caja-hacemos p{
+.caja-hacemos p {
     line-height: 1.5;
+}
+
+.contenedor-servicios {
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  
+}
+.servicios {
+    width: 65%;
+}
+.servicios h3 {
+    margin-bottom: 15px;
+}
+.servicios-caja1 {
+    background-color: #e6e6e6;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.servicios-caja2 {
+    background-color: #e6e6e6;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.servicios-caja3 {
+    background-color: #e6e6e6;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.servicios-caja1 h3,
+.servicios-caja2 h3,
+.servicios-caja3 h3 {
+    margin-bottom: 10px;
+}
+.servicios-caja1 p,
+.servicios-caja2 p,
+.servicios-caja3 p {
+    line-height: 1.5;
+}
+
+.contenedor-contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 80px;
+}
+.contactos {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.0;
+}
+.contacto-caja1,
+.contacto-caja2,
+.contacto-caja3,
+.contacto-caja4,
+.contacto-caja5 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.contacto-caja1 input,
+.contacto-caja2 input,
+.contacto-caja3 input,
+.contacto-caja4 input {
+    width: 100%;
+    padding: 8px;
+}
+.contacto-caja5 button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e8491d;
+    color: #ffffff;
+    border: none;
+    margin-top: 8px;
+}
+.contacto-caja5 textarea {
+    width: 100%;
+    height: 170px;
+}
+.columna-derecha-contacto {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+.columna-derecha-contacto .caja-hacemos {
+    width: 100%;
+    margin-bottom: 20px;
 }
